@@ -6,7 +6,7 @@ import geopandas as gpd
 
 
 #data importing
-df=pd.read_csv("https://github.com/YonQwon/visulization_of_kenya_voters/blob/main/data/voters.csv",header=None)
+#df=pd.read_csv("https://github.com/YonQwon/visulization_of_kenya_voters/blob/main/data/voters.csv",header=None)
 subgeo=gpd.read_file("https://github.com/YonQwon/visulization_of_kenya_voters/blob/main/data/map.geojson",header=None)
 
 
