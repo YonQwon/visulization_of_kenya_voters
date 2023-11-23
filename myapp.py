@@ -7,7 +7,7 @@ import geopandas as gpd
 
 #data importing
 df=pd.read_csv(r"C:\Users\Qwon\Desktop\Dev\data_science_projects\stream project\data\voters.csv")
-subgeo=gpd.read_file(r"C:\Users\Qwon\Desktop\Dev\data_science_projects\iebc\map.geojson")
+subgeo=gpd.read_file(r"C:\Users\Qwon\Desktop\Dev\data_science_projects\streamlit\data\map.geojson")
 
 
 df.drop(columns="Unnamed: 0",inplace=True)
