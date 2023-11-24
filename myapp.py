@@ -4,10 +4,10 @@ import pandas as pd
 import plotly.express as px
 import geopandas as gpd
 
-
+https://raw.githubusercontent.com/YonQwon/visulization_of_kenya_voters/main/data/voters.csv
 #data importing
-df=pd.read_csv("https://github.com/YonQwon/visulization_of_kenya_voters/blob/main/data/voters.csv")
-subgeo=gpd.read_file("https://github.com/YonQwon/visulization_of_kenya_voters/blob/main/data/map.geojson")
+df=pd.read_csv("https://raw.githubusercontent.com/YonQwon/visulization_of_kenya_voters/main/data/voters.csv")
+subgeo=gpd.read_file("https://raw.githubusercontent.com/YonQwon/visulization_of_kenya_voters/main/data/map.geojson")
 
 
 df.drop(columns="Unnamed: 0",inplace=True)
