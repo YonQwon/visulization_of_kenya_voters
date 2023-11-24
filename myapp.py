@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 import geopandas as gpd
 
-https://raw.githubusercontent.com/YonQwon/visulization_of_kenya_voters/main/data/voters.csv
+#https://raw.githubusercontent.com/YonQwon/visulization_of_kenya_voters/main/data/voters.csv
 #data importing
 df=pd.read_csv("https://raw.githubusercontent.com/YonQwon/visulization_of_kenya_voters/main/data/voters.csv")
 subgeo=gpd.read_file("https://raw.githubusercontent.com/YonQwon/visulization_of_kenya_voters/main/data/map.geojson")
